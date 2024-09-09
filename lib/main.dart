@@ -1,3 +1,4 @@
+import 'package:bookia_app/Functions/Home_Sceens/Home_page.dart';
 import 'package:bookia_app/Screens/accepteness_page.dart';
 import 'package:bookia_app/Screens/welcom_screen.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WelcomeScreen()
+      home: HomePage()
     );
   }
 }

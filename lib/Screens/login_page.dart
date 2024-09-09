@@ -4,7 +4,7 @@ import 'package:bookia_app/Screens/Forget_Password_page.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:bookia_app/Functions/methods.dart';
+import 'package:bookia_app/Functions/widgets/text_form_field.dart';
 
 class LoginPage extends StatefulWidget {
   @override

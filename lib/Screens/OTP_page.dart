@@ -1,4 +1,4 @@
-import 'package:bookia_app/Functions/methods.dart';
+import 'package:bookia_app/Functions/widgets/text_form_field.dart';
 import 'package:bookia_app/Screens/Forget_Password_page.dart';
 import 'package:bookia_app/Screens/creat_newPassword_page.dart';
 import 'package:flutter/material.dart';
