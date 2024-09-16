@@ -1,7 +1,7 @@
-import 'package:bookia_app/Functions/Home_Sceens/Home_page.dart';
-import 'package:bookia_app/Screens/accepteness_page.dart';
-import 'package:bookia_app/Screens/welcom_screen.dart';
+import 'package:bookia_app/feature/bloc/auth_bloc.dart';
+import 'package:bookia_app/feature/intro/splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,9 +12,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomePage()
+    return BlocProvider(
+      create: (context) => AuthBloc(),
+      child:
+          MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen()),
     );
   }
 }
