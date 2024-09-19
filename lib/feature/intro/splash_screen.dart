@@ -1,7 +1,7 @@
 import 'package:bookia_app/feature/Screens/welcom_screen.dart';
 import 'package:bookia_app/core/Functions/navigatore.dart';
 import 'package:bookia_app/core/utils/Colors.dart';
-import 'package:bookia_app/feature/home/Home_page.dart';
+import 'package:bookia_app/feature/Screens/nav_bar_widget.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

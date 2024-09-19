@@ -7,7 +7,7 @@ Widget socialLoginButton(String imageUrl) {
     decoration: BoxDecoration(
       border: Border.all(width: 0.4),
       borderRadius: BorderRadius.circular(10),
-    ),
+      ),
     child: Center(
       child: Image.network(
         imageUrl,
